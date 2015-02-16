@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E66F564D-10E1-2C84-C652-D52002ECF0B9}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\NGUI\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButton.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonPlayAnimation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonSound.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonTween.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UICheckbox.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UICheckboxControlledComponent.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UICheckboxControlledObject.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDragPanelContents.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDraggablePanel.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIInputValidator.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UISlider.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UISliderColors.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UITable.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\Localization.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\UITweener.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIAnchor.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIAtlas.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UICamera.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIFilledSprite.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIFont.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIInput.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIInputSaved.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UILabel.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UILocalize.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIPanel.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIRoot.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UISlicedSprite.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UISprite.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIStretch.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UITextList.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UITexture.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UITiledSprite.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UITooltip.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIViewport.cs" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <None Include="Assets\NGUI\Resources\Shaders\Depth.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\_Imported Assets\Locker_room_props\readme.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\_Imported Assets\microscope\ArchiBase.net.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\Custom Audio\Attribution.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\6by7\ProBuilder\VersionInfo.txt" />
+     <None Include="Assets\GUI\Fonts\ISL_Jupitor_32.txt" />
+     <None Include="Assets\GUI\Fonts\ISL_Jupitor_22.txt" />
+     <None Include="Assets\_Imported Assets\Office\Monitor\archibase.net.txt" />
+     <None Include="Assets\6by7\ProBuilder\Shader\UnlitColor.shader" />
+     <None Include="Assets\_Imported Assets\Snack_machines\readme.txt" />
+     <None Include="Assets\NGUI\ReadMe.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\GUI\Fonts\ISL_Jupitor_64.txt" />
+     <None Include="Assets\_Imported Assets\Office\Printer\Liscense.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\NGUI\Examples\Other\English.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\6by7\_README-ProGrids-Free.txt" />
+     <None Include="Assets\6by7\_README.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\_Imported Assets\Office\telephone\readme.txt" />
+     <None Include="Assets\6by7\QuickOffset\_README.txt" />
+     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\_Imported Assets\dryer\archibase.net.txt" />
+     <None Include="Assets\6by7\ProBuilder\Editor\Actions\Credits.txt" />
+ <Reference Include="ProBuilderCore">
+ <HintPath>Assets\6by7\ProBuilder\Classes\ProBuilderCore.dll</HintPath>
+ </Reference>
+ <Reference Include="NGUI">
+ <HintPath>Assets\NGUI\DLLs\NGUI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
